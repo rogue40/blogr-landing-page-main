@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Ubuntu:wght@300&display=swap');
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    
+}
+.section1{
+  background: url("../images/bg-pattern-intro.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:linear-gradient(to right,hsl(355, 100%, 74%), hsl(356, 100%, 66%));
+  height:500px;
+  border-radius:0 0 0 70px;
+}
+.s1heading{
+   text-align:center;
+   color:white;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 700;
+}
+
+.s1para{
+   text-align:center;
+   color:white;
+   padding:20px;
+   letter-spacing: 3px;
+}
+.s1logo{
+   padding: 40px 60px 60px 60px; 
+}
+.login,.signup{
+    padding:10px;
+    border:2px solid white;
+    color:white;
+    border-radius:90px;
+    margin:20px;
+    background-color:hsl(355, 100%, 74%);
+    float:right;
+    position:relative;
+    right:50px;
+}
+.start,.learn{
+    padding:10px;
+    border:2px solid white;
+    color:white;
+    border-radius:90px;
+    margin:10px;
+    background-color:hsl(355, 100%, 74%);
+    
+}
+.start:hover,.learn:hover{
+    background-color:white;
+    color:hsl(356, 100%, 66%);
+    
+}
+.action{
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    padding:30px;
+    margin-bottom:30px;
+}
+
+.container,.section3,.section4,.section5{
+    display:flex;
+    flex-direction:row;
+}
+.s2heading{
+    color:hsl(208, 49%, 24%);
+    text-align:center;
+}
+.content3{
+    margin-top:30px;
+}
+.content2{
+    margin:30px 40px 0px 80px;
+    padding:20px;
+}
+.editor,.mobiles,.computer{
+    height: 500px;
+    width: 50%;
+    padding: 20px;
+    position:relative;
+    bottom:80px;
+    
+}
+.s2head{
+    font-size:30px;
+    font-weight:bolder;
+   line-height: 25px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(208, 49%, 24%);
+    text-align: left;
+    
+
+}
+.s2para{
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color:hsl(207, 13%, 34%);
+    line-height: 25px;
+    text-align: left;
+
+}
+.section3{
+    background-color:hsl(237, 17%, 21%);
+    color:white;
+    border-radius: 0 50px 0 40px;
+    height:300px;
+    margin-bottom:200px;
+    
+}
+.content3{
+    color: hsl(0, 0%, 100%);
+    margin:auto;
+    line-height: 25px;
+}
+.s3heading{
+    text-align: left;
+    margin-left: 100px;
+}
+.s3para{
+    font-size:17px;
+    padding:0 100px 0 100px;
+}
+
+.content{
+    padding-right:50px;
+}
+.s4head{
+    font-size:30px;
+    font-weight:bolder;
+    margin-left:30px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(208, 49%, 24%);
+    
+}
+.s4para{
+    margin-left:30px;
+    margin-top:20px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    color:  hsl(207, 13%, 34%);
+    line-height: 25px;
+    
+}
+.computer{
+    position:relative;
+}
+.section5{
+    background-color:hsl(240, 10%, 16%);
+    color:white;
+    justify-content:space-around;
+    padding:60px 40px 90px 40px;
+    border-radius:0 50px 0 0;
+    width:93%;
+    overflow: hidden;
+    margin:auto;
+}
+a{
+    display:block;
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    font-size:13px;
+}
+
+@media  screen and (max-width:900px) {
+ body{
+     text-align:center;
+ }
+    .container,.section3,.section4,.section5{
+    display:flex;
+    flex-direction:column;
+}
+.section5{
+    justify-content:center;
+    margin:auto;
+
+}
+.s2head,.s2para{
+    text-align:center;
+}
+.editor,.computer{
+    margin:auto;
+    width:auto;
+}
+.container{
+    flex-direction:column-reverse;
+}
+.section3{
+  flex-direction:column;
+  height:fit-content;
+}
+.content3{
+    padding-bottom:20px;
+}
+.mobiles{
+    margin:auto;
+    justify-content: center;
+    width:auto;
+   
+}
+.s3heading{
+    text-align:center;
+    
+}
+.s1logo{
+    padding: 10px;
+    margin-right: 90px;
+    padding-top: 30px;
+}
+.s1heading{
+    padding-top:70px;
+}
+.s2heading{
+    margin-top:60px;
+}
+.content2{
+    margin-top:0;
+    padding:0;
+}
+}
